@@ -65,3 +65,9 @@ func SplitNumbers(s string) (n []int) {
 	}
 	return n
 }
+
+// GetNumber converts a tune to number,
+func GetNumber(r rune) int {
+	n, _ := strconv.Atoi(string(r))
+	return n
+}
